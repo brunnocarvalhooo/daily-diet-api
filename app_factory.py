@@ -1,6 +1,8 @@
 from flask import Flask
-from database import db
+
 from login_manager import login_manager
+from database import db
+
 
 def create_app():
     app = Flask(__name__)
